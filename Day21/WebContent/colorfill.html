@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<canvas id="myCanvas" width="300" height="200"
+style="border:1px solid #d3d3d3;">
+some error is there
+</canvas>
+
+<script>
+var canvas = document.getElementById("myCanvas");
+var ctx=canvas.getContext("2d");
+ctx.font="30px Comic Sans MS";
+ctx.fillStyle = "red";
+ctx.textAlign = "center";
+ctx.fillText("Hello javascript", canvas.width/2, canvas.height/2);
+</script>
+
+</body>
+</html>
